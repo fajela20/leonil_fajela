@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#D {
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-top: 30px; 
+    margin-left: 20px; 
+    font-size: 16px; 
+    width: 32%; 
+}
+
+#D h1 {
+    word-wrap: break-word;
+    font-size: 50px;
+}
+
+#D p {
+    line-height: 50px; 
+    word-wrap: break-word;
+}
+
+#D button {
+    background-color: rgb(21, 174, 174);
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    margin-top: 10px; 
+}
+
+#H {
+    float: left;
+    font-size: 16px; 
+    margin-left: 25px; 
+    width: 30%; 
+}
+
+#V {
+    color: white;
+    background-color: rgb(222, 152, 21);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+#V h1{
+    word-wrap: break-word;
+}
+#S {
+    color: white;
+    background-color: rgb(21, 174, 174);
+    padding: 20px; 
+    padding-top: 50px;
+    padding-bottom: 68px;
+}
+#S p{
+    word-wrap: break-word;
+}
+#S button {
+    color: rgb(21, 174, 174);
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px; 
+    margin-top: 10px; 
+}
+
+#U img {
+    float: right;
+    width: 35%; 
+}
+
+#Apalit {
+    border: 1px solid rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48);
+    color: white;
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px; 
+}
+
+@media only screen and (max-width: 800px) {
+    #D{
+        width: 100%;
+        float: none;
+    }
+    #H {
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+    
+    #U{
+        float: left;
+        width: 50%;
+    }
+    #U img{
+        width: 380px;
+        height: 619px;
+    }
+    #Apalit{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #D{
+        float: right;
+        width: 100%;
+    }
+    #H {
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+    #U{
+        float: left;
+        width: 100%;
+    }
+    #U img{
+        width: 465px;
+        height: 619px;
+    }
+}
